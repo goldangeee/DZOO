@@ -129,3 +129,5 @@ LOGOUT_REDIRECT_URL='/'
 
 MEDIA_URL='/media/'
 MEDIA_ROOT=BASE_DIR/'media'
+
+AUTH_USER_MODEL = 'login.User'
